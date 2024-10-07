@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="constructor.bat" />
+          <option value="main.bbox_id" />
+          <option value="main.model" />
+          <option value="main.*" />
+          <option value="PYtorch" />
+          <option value="YOLOv8s" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
